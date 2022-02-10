@@ -1,0 +1,7 @@
+package eventpackage;
+syntax = "proto3";
+
+message Event {
+    string title = 1;
+    string description = 2;
+}
